@@ -218,6 +218,54 @@
         "text": "I ordered some clothes a week ago but I have not received them yet",
         "intent": "order_question_without_id",
         "entities": []
+      },
+      {
+        "text": "What is the status of 2423434?",
+        "intent": "order_question_with_id",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "2423434",
+            "entity": "order_id"
+          }
+        ]
+      },
+      {
+        "text": "Where is my order 23132131?",
+        "intent": "order_question_with_id",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "23132131",
+            "entity": "order_id"
+          }
+        ]
+      },
+      {
+        "text": "What happened to 23131231 order?",
+        "intent": "order_question_with_id",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "23131231",
+            "entity": "order_id"
+          }
+        ]
+      },
+      {
+        "text": "Where is 1231321?",
+        "intent": "order_question_with_id",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "1231321",
+            "entity": "order_id"
+          }
+        ]
       }
     ]
   }
